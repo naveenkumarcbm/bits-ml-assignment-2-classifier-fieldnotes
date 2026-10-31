@@ -17,7 +17,7 @@ Compare Logistic Regression, Decision Tree, K-Nearest Neighbors, Gaussian Naive 
 
 ## c. GitHub Repository Link
 
-**Replace before submitting:** https://github.com/your-username/your-repository
+https://github.com/naveenkumarcbm/bits-ml-assignment-2-classifier-fieldnotes
 
 ## d. Models and evaluation
 
