@@ -60,7 +60,7 @@ streamlit run app.py
 
 ### Streamlit Community Cloud
 
-**Replace after deployment:** https://your-app-name.streamlit.app
+[Live Streamlit App](https://bits-ml-assignment-2-classifier-fieldnotes-kjdx2ut5iuvt3mizjad.streamlit.app/)
 
 Deploy `app.py` from the repository root and keep `requirements.txt`, `model/`, and `test_data.csv` in the repository. Keep the scikit-learn version used to create the joblib artifacts aligned with `requirements.txt`.
 
