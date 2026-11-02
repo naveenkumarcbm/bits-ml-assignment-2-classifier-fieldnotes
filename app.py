@@ -145,7 +145,11 @@ summary_columns[0].metric("Rows scored", f"{sample_count:,}")
 summary_columns[1].metric("Input features", f"{len(feature_names)}")
 summary_columns[2].metric("Models compared", f"{len(artifacts)}")
 st.dataframe(
-    comparison.style.format("{:.3f}"),
+    comparison,
+    column_config={
+        column: st.column_config.NumberColumn(format="%.3f")
+        for column in comparison.columns
+    },
     width="stretch",
 )
 
